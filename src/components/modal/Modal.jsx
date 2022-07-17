@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 
 import './modal.scss';
@@ -43,3 +43,5 @@ export const ModalContent = (props) => {
 ModalContent.propTypes = {
   onClose: PropTypes.func,
 };
+
+export default Modal;
