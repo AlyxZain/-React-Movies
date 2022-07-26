@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './footer.scss';
 
 import { Link } from 'react-router-dom';
@@ -19,7 +17,10 @@ export const Footer = () => {
         </div>
         <div className='footer__content__menus'>
           <div className='footer__content__menu'>
-            <Link to='/'>Home</Link>
+            <a href='/'>
+              Home
+              {/* <Link to='/'>Home</Link> */}
+            </a>
           </div>
           <div className='footer__content__menu'>
             <Link to='/contact'>Contact us</Link>

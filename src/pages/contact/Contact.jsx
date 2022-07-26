@@ -30,7 +30,69 @@ export const Contact = () => {
                 <span className='genres__item'>JavaScript</span>
                 <span className='genres__item'>React</span>
               </div>
-              <p className='overview'>un chicos</p>
+              <p className='overview'>
+                Hola, soy un desarrollador front-end junior sin experiencia
+                laboral. Actualmente estoy estudiando en el bootcamp de henry
+                para convertirme en desarrollador FullStack. <br />
+                <br />
+                Desarrollador Front-end & Técnico de Sistemas, con sólidos
+                conocimientos académicos en programación y diseño. <br />→ HTML5
+                , CSS3 , SASS , JavaScript , React <br />
+                → Bootstrap, Material UI <br />→ Node.js, npm, git, GitHub
+                <br />
+                <br />
+                Mi motivación y capacidad de aprendizaje, mi rápida
+                adaptabilidad, mi capacidad de trabajo en equipo, mi dedicación
+                al detalle por cada uno de los proyectos que realizo, son
+                habilidades que me caracterizan a la hora de desenvolverme en el
+                entorno laboral y crecer profesionalmente. .
+              </p>
+              <div className='genres'>
+                <a
+                  href='https://api.whatsapp.com/send?phone=573117382082'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  <span
+                    className='genres__item'
+                    style={{
+                      backgroundColor: 'green',
+                    }}>
+                    Whatsapp
+                  </span>
+                </a>
+
+                <a href='mailto:Y.u.u.k.ibrb@gmail.com' target='_blank'>
+                  <span
+                    className='genres__item'
+                    style={{
+                      backgroundColor: 'red',
+                    }}>
+                    Mail
+                  </span>
+                </a>
+
+                <a href='https://github.com/AlyxZain' target='_blank'>
+                  <span
+                    className='genres__item'
+                    style={{
+                      backgroundColor: 'black',
+                    }}>
+                    GitHub
+                  </span>
+                </a>
+
+                <a
+                  href='https://www.linkedin.com/in/sebastian-vargas-ramirez/'
+                  target='_blank'>
+                  <span
+                    className='genres__item'
+                    style={{
+                      backgroundColor: '#0e76a8',
+                    }}>
+                    Linkedin
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </>

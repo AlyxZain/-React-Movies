@@ -44,7 +44,6 @@ export const Detail = () => {
                     item.poster_path || item.backdrop_path
                   )})`,
                 }}></div>
-              <button className='favorite_btn'>💓</button>
             </div>
             <div className='movie-content__info'>
               <h1 className='title'>{item.title || item.name}</h1>
